@@ -557,7 +557,7 @@ h4.timeline-tittle{
 .about-content .timeline .timeline-text{
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
+    text-align: start;
     color: var(--text-black-700);
 
 
@@ -921,7 +921,7 @@ h3.hello {
     margin: 15px 0;
 }
 }
-@media (max-width:376px){
+@media (max-width:375px){
     .btn{
         margin: 0;
     }
@@ -1011,12 +1011,38 @@ h3.hello {
         margin: 15px 0px;
     }
 }
-@media  (max-width:413){
+@media  (max-width:415px){
     .section .container {
         /* padding-top:0px;
         margin-top: 0px;
         padding-bottom: 97px; */
         padding: 0px;
     }
+    /* .section-tittle {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 52px;
+        padding-top: 0px !important;
+    }
+    .item__1{
+        padding-top:0px !important;
+    }
+    .item-2{
+        padding: 0px 0px;
+
+    }
+    /* .item-3{
+        padding-left: 7.5px !important;
+    } */
+    .padd-1 {
+        padding-left: 7.5px;
+        padding-right: 15px;
+    }
+   
+    .section .container {
+        padding-top: 20px;
+        margin-top: 0px;
+   
+    }  
 }
 
