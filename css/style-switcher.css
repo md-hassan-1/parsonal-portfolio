@@ -1,0 +1,93 @@
+.style-switcher{
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
+    width: 200px;
+    background:var( --bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    z-index: 101;
+    transform: translateX(100%);
+}
+.style-switcher.open{
+    transform: translateX(-25px);
+}
+
+
+
+
+.style-switcher .s-icon{
+    position: absolute;
+    height: 40px;
+    width:40px;
+    background: var(--bg-black-50);
+    color: var( --text-black-900);
+    font-size: 20px ;
+    text-align: center;
+    right: 100%;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.style-switcher-toggaler{
+    top: 0;
+}
+.style-switcher .s-icon i{
+    line-height: 40px;
+
+}
+.style-switcher .day-night{
+    top: 55px;
+}
+.style-switcher h4{
+    margin: 0 0 10px;
+    color: var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.style-switcher .colors{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+.style-switcher .colors span{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+    cursor: pointer;
+
+}
+.style-switcher .colors .color-1{
+    border: none;
+    background-color: var( --color-skin);
+    cursor: pointer;
+}
+.style-switcher .colors .color-2{
+    border: none;
+    background-color: #fa5b0f;
+    cursor: pointer;
+}
+.style-switcher .colors .color-3{
+    border: none;
+    background-color: #37b182;
+    cursor: pointer;
+}
+.style-switcher .colors .color-4{
+    border: none;
+    background-color: #1854b4;
+    cursor: pointer;
+}
+.style-switcher .colors .color-5{
+    border: none;
+    background-color: #f021b2;
+    cursor: pointer;
+}
