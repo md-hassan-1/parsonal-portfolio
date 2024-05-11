@@ -1032,6 +1032,11 @@ h3.hello {
         padding-left: 7.5px;
         padding-right: 15px;
     }
+    .home .home-info p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        color: var(--text-black-700);
+    }
    
    
     .item__1{
