@@ -924,15 +924,27 @@ h3.hello {
     margin: 15px 0;
 }
 }
-@media (max-width:375px){
+@media (max-width:376px){
     .btn{
         margin: 0;
+    }
+    .section {
+        background-color: var(--bg-black-900);
+        min-height: 73vh;
+        display: block;
+        padding: 0px 30px;
+        opacity: 1;
     }
     .section-tittle {
         flex: 0 0 100%;
         max-width: 100%;
         margin-bottom: 52px;
         padding-top: 0px !important;
+    }
+    .home .home-info p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        color: var(--text-black-700);
     }
     .item__1{
         padding-top:25px !important;
